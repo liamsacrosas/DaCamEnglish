@@ -192,7 +192,7 @@ function rellenarPagina(producto) {
         : `${producto.stock} units available`;
     document.getElementById("buyStock").textContent = stockText;
 
-    document.getElementById("DeliveryPrice").textContent = "Free shipping worldwide";
+    document.getElementById("DeliveryPrice").textContent = "Free shipping Nationwide";
 
     // Garantía
     const garantiaText = (producto.garantia === "unavailable" || !producto.garantia)
