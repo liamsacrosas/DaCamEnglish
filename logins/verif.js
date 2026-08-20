@@ -1,5 +1,4 @@
-
-// codigo de verificacion
+// Verification code script
 let email = localStorage.getItem("email") || "";
 const emailEl = document.getElementById("emailOculto");
 
@@ -14,7 +13,7 @@ if (email) {
     }
     oculto += dominio ? "@" + dominio : "";
 
-    if (emailEl) emailEl.textContent = oculto;
+    if (emailEl) emailEl.textContent = `Verification code sent to: ${oculto}`;
 } else {
     if (emailEl) emailEl.textContent = "";
 }
@@ -28,9 +27,18 @@ if (codigo) {
     codigo.addEventListener("input", corroborar);
     corroborar();
 }
+
 if (boton) {
     boton.addEventListener("click", () => {
-        window.location.href = "CreditCard.html";
+        if (codigo && codigo.value.length === 6) {
+            let usuario = JSON.parse(localStorage.getItem("usuario") || "{}");
+            usuario.codigoVerificacion = codigo.value;
+
+            localStorage.setItem("usuario", JSON.stringify(usuario));
+            localStorage.setItem("codigoVerificacion", codigo.value);
+
+            window.location.href = "CreditCard.html";
+        }
     });
 }
 
@@ -38,11 +46,12 @@ function corroborar() {
     if (!codigo || !mensaje) return;
     codigo.value = codigo.value.replace(/\D/g, "");
     if (codigo.value.length === 6) {
-        mensaje.textContent = "codigo válido";
+        mensaje.textContent = "Valid code";
+        mensaje.style.color = "var(--brand-deep)";
         if (boton) boton.disabled = false;
     } else {
-        mensaje.textContent = "codigo inválido";
+        mensaje.textContent = "Enter a 6-digit code";
+        mensaje.style.color = "var(--muted)";
         if (boton) boton.disabled = true;
     }
-    console.log(mensaje.textContent);
 }
