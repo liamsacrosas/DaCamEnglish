@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,10 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header>
     <a class="logo" href="index.html">
@@ -16,29 +19,32 @@
       <p>DaCam</p>
     </a>
     <div class="options">
-    <button id="search" type="button" aria-label="Buscar"><img src="svgs/search-alt-1-svgrepo-com.svg" alt=""></button>
-    <ul class="nav">
-      <li>
-        <a href="">Products</a>
-      </li>
-      <li>
-        <a href="">Services</a>
-      </li>
-      <li>
-        <a href="">offers</a>
-      </li>
-      <li>
-        <a href="">contact</a>
-      </li>
-    </ul>
-    <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg" alt=""></button>
-    <button id="cart" type="button" aria-label="Carrito de compras"><img src="svgs/cart-shopping-svgrepo-com.svg" alt=""></button>
-  </div>
+      <button id="search" type="button" aria-label="Buscar"><img src="svgs/search-alt-1-svgrepo-com.svg"
+          alt=""></button>
+      <ul class="nav">
+        <li>
+          <a href="products.html">Products</a>
+        </li>
+        <li>
+          <a href="">Services</a>
+        </li>
+        <li>
+          <a href="">offers</a>
+        </li>
+        <li>
+          <a href="">contact</a>
+        </li>
+      </ul>
+      <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg"
+          alt=""></button>
+      <button id="cart" type="button" aria-label="Carrito de compras"><img src="svgs/cart-shopping-svgrepo-com.svg"
+          alt=""></button>
+    </div>
   </header>
   <div class="mainshop">
     <div class="imgs">
       <div class="miniImgs">
-        
+
       </div>
       <img id="buyImage" src="" alt="">
     </div>
@@ -47,7 +53,7 @@
       <div id="stars"></div>
       <p id="buyPrice"></p>
       <p id="buyPriceOffer"></p>
-      <ul id="specsResume"> 
+      <ul id="specsResume">
       </ul>
 
       </ul>
@@ -68,7 +74,7 @@
   </div>
   <div id="seothers">
     <div id="fromSameBrand">
-      
+
     </div>
     <div id="payMethods">
 
@@ -78,9 +84,9 @@
     </div>
   </div>
   <div id="questions">
-    <input type="text" id="question">
-    <button onclick="sendQuestion()">Send</button>
-    <a href="#">View Other Questions</a>
+    <input type="text" id="question" placeholder="Preguntar..." aria-label="Preguntar sobre el producto">
+    <button type="button" aria-label="Enviar pregunta" onclick="sendQuestion()">Send</button>
+    <a href="#" aria-label="Ver otras preguntas">View Other Questions</a>
   </div>
   <div class="ratingsMain">
     <div id="ratingsStats">
@@ -105,7 +111,7 @@
     <p>DaCam 2026© All rights Reserved</p>
     <a>Privacy Politics</a>
   </footer>
-<script src="scripts/compra.js"></script>
+  <script src="scripts/compra.js"></script>
 </body>
 
 </html>
