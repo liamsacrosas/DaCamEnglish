@@ -6,16 +6,16 @@ function cargar(event) {
     let msg = document.getElementById("return");
 
     if (!corroborarEmail(email)) {
-        msg.textContent = "Ingrese un email válido";
+        msg.textContent = "Please enter a valid email address.";
         return;
     }
 
     if (pass === "") {
-        msg.textContent = "Ingrese una contraseña";
+        msg.textContent = "Please enter your password.";
         return;
     }
 
-    // Guardar datos del login en localStorage
+    // Save login details to localStorage
     let usuario = JSON.parse(localStorage.getItem("usuario") || "{}");
     usuario.email = email;
     usuario.password = pass;
@@ -33,7 +33,7 @@ function corroborarEmail(email) {
     return formatoEmail.test(email);
 }
 
-// Autocompletar si ya hay email guardado
+// Autofill saved email if available
 document.addEventListener("DOMContentLoaded", () => {
     const savedEmail = localStorage.getItem("email");
     const emailInput = document.getElementById("EM");

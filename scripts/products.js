@@ -10,11 +10,13 @@ let paginaActual = 1;
 
 /** Genera la cadena de estrellas (llenas, medias, vacías) */
 function generarEstrellas(calificacion) {
+    if (typeof calificacion !== "number" || calificacion <= 0) return "★★★★★";
     const llenas = Math.floor(calificacion);
     const media = calificacion % 1 >= 0.5 ? 1 : 0;
-    const vacias = 5 - llenas - media;
+    const vacias = Math.max(0, 5 - llenas - media);
+    const countLlenas = Math.max(0, llenas);
 
-    return "★".repeat(llenas) + (media ? "½" : "") + "☆".repeat(vacias);
+    return "★".repeat(countLlenas) + (media ? "½" : "") + "☆".repeat(vacias);
 }
 
 /** Formatea un número como precio en pesos argentinos */
@@ -31,8 +33,8 @@ function formatearPrecio(num) {
 function ordenarProductos(lista, criterio) {
     const copia = [...lista];
     switch (criterio) {
-        case "mejor-peor": return copia.sort((a, b) => b.calificacion - a.calificacion);
-        case "peor-mejor": return copia.sort((a, b) => a.calificacion - b.calificacion);
+        case "mejor-peor": return copia.sort((a, b) => b.precio - a.precio);
+        case "peor-mejor": return copia.sort((a, b) => a.precio - b.precio);
         case "precio-mayor": return copia.sort((a, b) => b.precio - a.precio);
         case "precio-menor": return copia.sort((a, b) => a.precio - b.precio);
         default: return copia;
@@ -48,12 +50,17 @@ function crearTarjeta(producto) {
     const precioHTML = tieneOferta
         ? `<p class="producto__precio">
                ${formatearPrecio(producto.precio_oferta)}
-               <span class="producto__precio--oferta">Antes: ${formatearPrecio(producto.precio)}</span>
+               <span class="producto__precio--oferta">Was: ${formatearPrecio(producto.precio)}</span>
            </p>`
         : `<p class="producto__precio">${formatearPrecio(producto.precio)}</p>`;
 
-    // Imagen generada con picsum basada en el id del producto
-    const imgSrc = `https://picsum.photos/seed/dacam${producto.id}/600/800`;
+    // Usa la primera imagen del arreglo si está disponible, oPicsum por ID
+    const imgSrc = (Array.isArray(producto.imagenes) && producto.imagenes.length > 0)
+        ? producto.imagenes[0]
+        : `https://picsum.photos/seed/dacam${producto.id}/600/800`;
+
+    const ratingVal = producto.calificacion === -1 ? "New" : producto.calificacion.toFixed(1);
+    const reviewsVal = producto.cantidad_calificaciones === -1 ? "" : `(${producto.cantidad_calificaciones})`;
 
     return `
         <a class="producto" href="compra.html?id=${producto.id}" id="prod-${producto.id}">
@@ -67,7 +74,7 @@ function crearTarjeta(producto) {
                 <h3 class="producto__titulo">${producto.titulo}</h3>
                 <div class="producto__rating">
                     <span class="producto__estrellas" aria-hidden="true">${generarEstrellas(producto.calificacion)}</span>
-                    <span>${producto.calificacion} (${producto.cantidad_calificaciones.toLocaleString("es-AR")})</span>
+                    <span>${ratingVal} ${reviewsVal}</span>
                 </div>
                 ${precioHTML}
             </div>
@@ -84,7 +91,7 @@ function renderizarProductos(lista) {
 
     contenedor.innerHTML = pagina.length
         ? pagina.map(crearTarjeta).join("")
-        : `<p style="grid-column:1/-1;color:var(--ink-soft)">No hay productos disponibles.</p>`;
+        : `<p style="grid-column:1/-1;color:var(--ink-soft)">No products available.</p>`;
 
     renderizarPaginacion(lista.length);
 }
@@ -107,7 +114,7 @@ function renderizarPaginacion(total) {
         class="pag-btn"
         onclick="cambiarPagina(${paginaActual - 1})"
         ${paginaActual === 1 ? "disabled" : ""}
-        aria-label="Página anterior">‹</button>`;
+        aria-label="Previous page">‹</button>`;
 
     // Páginas numeradas
     for (let i = 1; i <= totalPaginas; i++) {
@@ -122,7 +129,7 @@ function renderizarPaginacion(total) {
         class="pag-btn"
         onclick="cambiarPagina(${paginaActual + 1})"
         ${paginaActual === totalPaginas ? "disabled" : ""}
-        aria-label="Página siguiente">›</button>`;
+        aria-label="Next page">›</button>`;
 
     contenedor.innerHTML = html;
 }
@@ -149,7 +156,7 @@ function ordenarProd(criterio) {
 
 /* ── Fetch ────────────────────────────────────────────────── */
 
-fetch(API_URL)
+fetch(`${API_URL}?t=${Date.now()}`, { cache: "no-cache" })
     .then(respuesta => {
         if (!respuesta.ok) throw new Error(`HTTP ${respuesta.status}`);
         return respuesta.json();
@@ -160,9 +167,9 @@ fetch(API_URL)
         renderizarProductos(ordenarProductos(todosLosProductos, criterioInicial));
     })
     .catch(err => {
-        console.error("Error cargando productos:", err);
+        console.error("Error loading products:", err);
         document.getElementById("products").innerHTML =
             `<p style="grid-column:1/-1;color:var(--danger)">
-                Error al cargar los productos. Intentá de nuevo más tarde.
+                Error loading products. Please try again later.
             </p>`;
     });

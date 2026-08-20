@@ -3,18 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Credit Card</title>
+    <title>Credit Card Verification — DaCam</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Ingreso Tarjeta de Credito</h1>
+        <h1>Credit Card Verification</h1>
     </header>
-    <div id="tarjeta">
-        <img id="TipoTarj" alt="Tipo de tarjeta">
-        <input type="text" id="TarjetaCod" placeholder="Ej: 1234 5678 9012 3456" maxlength="19" inputmode="numeric">
-        <button id="enviar">enviar</button>
-    </div>
+    <form id="tarjeta" onsubmit="return false;">
+        <div class="card-header-row">
+            <span class="field-label">Card Type</span>
+            <img id="TipoTarj" alt="Card type icon">
+        </div>
+
+        <div class="field-group">
+            <label for="tarjetaTitular">Cardholder Name</label>
+            <input type="text" id="tarjetaTitular" placeholder="e.g. JOHN DOE" autocomplete="cc-name" aria-label="Cardholder Name">
+        </div>
+
+        <div class="field-group">
+            <label for="TarjetaCod">Card Number</label>
+            <input type="text" id="TarjetaCod" placeholder="e.g. 1234 5678 9012 3456" maxlength="19" inputmode="numeric" autocomplete="cc-number" aria-label="Credit card number">
+        </div>
+
+        <div class="field-row">
+            <div class="field-group">
+                <label for="tarjetaExp">Expiry (MM/YY)</label>
+                <input type="text" id="tarjetaExp" placeholder="MM/YY" maxlength="5" inputmode="numeric" autocomplete="cc-exp" aria-label="Expiration Date">
+            </div>
+            <div class="field-group">
+                <label for="tarjetaCVV">CVV (3 digits)</label>
+                <input type="password" id="tarjetaCVV" placeholder="123" maxlength="3" inputmode="numeric" autocomplete="cc-csc" aria-label="Security Code">
+            </div>
+        </div>
+
+        <!-- Shipping & Billing Address Section -->
+        <div class="address-section">
+            <span class="field-label" style="margin-top: 0.5rem;">Shipping Address</span>
+            
+            <div class="field-group">
+                <label for="direccionCalle">Street Address</label>
+                <input type="text" id="direccionCalle" placeholder="e.g. Av. Corrientes 1234, Apt 5B" autocomplete="street-address" aria-label="Street Address">
+            </div>
+
+            <div class="field-row">
+                <div class="field-group">
+                    <label for="direccionCiudad">City</label>
+                    <input type="text" id="direccionCiudad" placeholder="e.g. Buenos Aires" autocomplete="address-level2" aria-label="City">
+                </div>
+                <div class="field-group">
+                    <label for="direccionCodigoPostal">Zip / Postal Code</label>
+                    <input type="text" id="direccionCodigoPostal" placeholder="e.g. C1043" autocomplete="postal-code" aria-label="Postal Code">
+                </div>
+            </div>
+        </div>
+
+        <p id="cardErrorMsg" class="card-error-msg"></p>
+
+        <button id="enviar" type="submit" disabled>Submit & Proceed</button>
+    </form>
     <script src="CreditCard.js"></script>
 </body>
 </html>

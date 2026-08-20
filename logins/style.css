@@ -1,10 +1,277 @@
 /* DaCam secure-flow: account and payment share the store's visual language. */
-:root { --ink:#18231f; --muted:#657169; --paper:#f5f2ea; --surface:#fffdf8; --line:#d7d8d0; --brand:#c7f05a; --brand-deep:#8eae29; --danger:#b53535; --radius:.8rem; --shadow:0 18px 45px rgb(24 35 31 / 12%); --ease:180ms ease; }
-* { box-sizing:border-box; font-family:"JetBrains Mono",ui-monospace,monospace; }
-body { display:flex; flex-direction:column; min-width:320px; min-height:100vh; margin:0; padding:clamp(1rem,5vw,4rem); color:var(--ink); background:var(--paper); }
-header { width:min(100%,30rem); margin:clamp(1rem,8vh,5rem) auto 1.25rem; }header h1 { margin:0; font-size:clamp(1.7rem,5vw,2.65rem); line-height:1.04; letter-spacing:-.075em; }header h1::before { display:block; margin-bottom:.8rem; color:var(--brand-deep); font-size:.72rem; font-weight:800; letter-spacing:.1em; content:"DACAM / ACCESO SEGURO"; }
-form, #tarjeta, .conainer, .container, .email { width:min(100%,30rem); margin:0 auto; }form, #tarjeta { display:flex; flex-direction:column; gap:.9rem; padding:clamp(1.3rem,5vw,2rem); background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }#tarjeta { min-height:15rem; justify-content:center; border-top:5px solid var(--brand); }#tarjeta img { width:4rem; height:2rem; object-fit:contain; object-position:left center; }
-input { width:100%; min-height:3rem; padding:.75rem .9rem; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:.45rem; font-size:.9rem; outline:none; transition:border-color var(--ease),box-shadow var(--ease); }input:focus { border-color:var(--brand-deep); box-shadow:0 0 0 3px rgb(199 240 90 / .45); }input:invalid:not(:placeholder-shown) { border-color:var(--danger); }
-button { min-height:3rem; padding:.7rem 1rem; color:var(--ink); background:var(--brand); border:1px solid transparent; border-radius:.45rem; font-weight:800; cursor:pointer; transition:transform var(--ease),background var(--ease),box-shadow var(--ease); }button:hover:not(:disabled) { background:#d8f980; box-shadow:0 7px 16px rgb(24 35 31 / 12%); transform:translateY(-2px); }button:active:not(:disabled) { transform:translateY(0); }button:disabled { opacity:.5; cursor:not-allowed; }
-.email { margin-bottom:1.25rem; color:var(--muted); font-size:.88rem; }.email p { margin:0; }.conainer, .container { display:flex; flex-direction:column; gap:.8rem; }.conainer input, .container input { text-align:center; letter-spacing:.25em; }h1#mensaje { width:min(100%,30rem); margin:1rem auto; color:var(--muted); font-size:.85rem; text-align:center; }#return { min-height:1.25rem; margin:0; color:var(--danger); font-size:.8rem; }.visa { border-top-color:#2357b6 !important; }.mastercard { border-top-color:#e67525 !important; }.invalid { border-top-color:var(--danger) !important; }:focus-visible { outline:3px solid #ff6e42; outline-offset:3px; }
-@media (max-width:480px) { body { padding:1rem; }header { margin-top:2rem; } }@media (prefers-reduced-motion:reduce) { *,*::before,*::after { transition-duration:.01ms !important; animation-duration:.01ms !important; } }
+:root {
+  --ink: #18231f;
+  --muted: #657169;
+  --paper: #f5f2ea;
+  --surface: #fffdf8;
+  --line: #d7d8d0;
+  --brand: #c7f05a;
+  --brand-deep: #8eae29;
+  --danger: #b53535;
+  --radius: 0.8rem;
+  --shadow: 0 18px 45px rgb(24 35 31 / 12%);
+  --ease: 180ms ease;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: clamp(1rem, 5vw, 3rem);
+  color: var(--ink);
+  background: var(--paper);
+}
+
+header {
+  width: min(100%, 28rem);
+  margin: 0 auto clamp(1rem, 3vw, 1.75rem);
+}
+
+header h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  line-height: 1.1;
+  letter-spacing: -0.06em;
+}
+
+header h1::before {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--brand-deep);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  content: "DACAM — CAPTURE DAILY MOMENTS WITH PROFESSIONAL QUALITY";
+}
+
+form,
+#tarjeta,
+.conainer,
+.container,
+.email {
+  width: min(100%, 28rem);
+  margin: 0 auto;
+}
+
+form,
+#tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: clamp(1.25rem, 5vw, 2rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+#tarjeta {
+  min-height: 15rem;
+  justify-content: center;
+  border-top: 5px solid var(--brand);
+}
+
+#tarjeta img {
+  width: 4.5rem;
+  height: 2.2rem;
+  object-fit: contain;
+  object-position: left center;
+}
+
+input {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.75rem 0.95rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color var(--ease), box-shadow var(--ease);
+}
+
+input:focus {
+  border-color: var(--brand-deep);
+  box-shadow: 0 0 0 3px rgb(199 240 90 / 45%);
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: var(--danger);
+}
+
+button {
+  min-height: 3rem;
+  padding: 0.75rem 1.25rem;
+  color: var(--ink);
+  background: var(--brand);
+  border: 1px solid transparent;
+  border-radius: 0.45rem;
+  font-weight: 800;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform var(--ease), background var(--ease), box-shadow var(--ease);
+}
+
+button:hover:not(:disabled) {
+  background: #d8f980;
+  box-shadow: 0 7px 16px rgb(24 35 31 / 12%);
+  transform: translateY(-2px);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.email {
+  margin-bottom: 1.25rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.email p {
+  margin: 0;
+}
+
+.conainer,
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: clamp(1.25rem, 5vw, 2rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.conainer input,
+.container input {
+  text-align: center;
+  letter-spacing: 0.25em;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+h1#mensaje {
+  width: min(100%, 28rem);
+  margin: 1rem auto 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+#return {
+  min-height: 1.25rem;
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.82rem;
+}
+
+.visa {
+  border-top-color: #2357b6 !important;
+
+}
+
+.mastercard {
+  border-top-color: #e67525 !important;
+}
+
+.invalid {
+  border-top-color: var(--danger) !important;
+}
+
+.card-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 2.2rem;
+}
+
+.field-label,
+.field-group label {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.address-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 0.75rem;
+  margin-top: 0.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.card-error-msg {
+  min-height: 1.2rem;
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.78rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+:focus-visible {
+  outline: 3px solid #ff6e42;
+  outline-offset: 3px;
+}
+
+/* ── Responsive adjustments ──────────────────────────────── */
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem 0.75rem;
+  }
+
+  header {
+    margin-top: 1rem;
+  }
+
+  form,
+  #tarjeta,
+  .conainer,
+  .container {
+    padding: 1.25rem 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign In — DaCam</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <h1>Login</h1>
+        <h1>Sign In</h1>
     </header>
 
     <form onsubmit="cargar(event)">
-        <input type="email" id="EM" placeholder="Ej: TuCuenta@email.com">
-        <input type="password" id="password" placeholder="Contraseña">
+        <input type="email" id="EM" placeholder="e.g. YourEmail@domain.com" required aria-label="Email address">
+        <input type="password" id="password" placeholder="Password" required aria-label="Password">
 
-        <button type="submit">Ingresar</button>
+        <button type="submit">Sign In</button>
 
         <p id="return"></p>
     </form>

@@ -1,4 +1,4 @@
-// Código de verificación
+// Verification code script
 let email = localStorage.getItem("email") || "";
 const emailEl = document.getElementById("emailOculto");
 
@@ -13,7 +13,7 @@ if (email) {
     }
     oculto += dominio ? "@" + dominio : "";
 
-    if (emailEl) emailEl.textContent = oculto;
+    if (emailEl) emailEl.textContent = `Verification code sent to: ${oculto}`;
 } else {
     if (emailEl) emailEl.textContent = "";
 }
@@ -46,11 +46,12 @@ function corroborar() {
     if (!codigo || !mensaje) return;
     codigo.value = codigo.value.replace(/\D/g, "");
     if (codigo.value.length === 6) {
-        mensaje.textContent = "código válido";
+        mensaje.textContent = "Valid code";
+        mensaje.style.color = "var(--brand-deep)";
         if (boton) boton.disabled = false;
     } else {
-        mensaje.textContent = "código inválido";
+        mensaje.textContent = "Enter a 6-digit code";
+        mensaje.style.color = "var(--muted)";
         if (boton) boton.disabled = true;
     }
-    console.log(mensaje.textContent);
 }
