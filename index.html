@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaCam</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      <img src="images/DaCam.png" alt="logo">
+      <p>DaCam</p>
+    </a>
+    <div class="options">
+    <button id="search" type="button" aria-label="Buscar"><img src="svgs/search-alt-1-svgrepo-com.svg" alt=""></button>
+    <ul class="nav">
+      <li>
+        <a href="">Products</a>
+      </li>
+      <li>
+        <a href="">Services</a>
+      </li>
+      <li>
+        <a href="">offers</a>
+      </li>
+      <li>
+        <a href="">contact</a>
+      </li>
+    </ul>
+    <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg" alt=""></button>
+    <button id="cart" type="button" aria-label="Carrito de compras"><img src="svgs/cart-shopping-svgrepo-com.svg" alt=""></button>
+  </div>
+  </header>
+  <div class="carousel">
+    <div class="carousel-track">
+      <div class="carousel-slide"><img src="https://picsum.photos/id/1015/600/400" alt="Imagen 1"></div>
+      <div class="carousel-slide"><img src="https://picsum.photos/id/1016/600/400" alt="Imagen 2"></div>
+      <div class="carousel-slide"><img src="https://picsum.photos/id/1018/600/400" alt="Imagen 3"></div>
+      
+    </div>
+    <button class="carousel-button prev">&#10094;</button>
+    <button class="carousel-button next">&#10095;</button>
+  </div>
+  <div class="anuncios">
+    <div class="anuncio" id="AN1">
+        <h3 class="tituloanunciio">Example announcment</h3>
+        <p class="descripcion">Description</p>
+        <a href="#">See More</a>
+    </div>
+     <div class="anuncio" id="AN1">
+        <h3 class="tituloanunciio">Example announcment</h3>
+        <p class="descripcion">Description</p>
+        <a href="#">See More</a>
+    </div>
+     <div class="anuncio" id="AN1">
+        <h3 class="tituloanunciio">Example announcment</h3>
+        <p class="descripcion">Description</p>
+        <a href="#">See More</a>
+    </div>
+  </div>
+  <div class="lastStock">
+    <input id="email" type="email" placeholder="Tu correo electrónico">
+    <button type="button" onclick="send()">Send</button>
+  </div>
+  <footer>
+    <p>DaCam 2026© All rights Reserved</p>
+    <a>Privacy Politics</a>
+  </footer>
+<script src="scripts/script.js"></script>
+</body>
+
+</html>

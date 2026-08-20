@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaCam</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      <img src="images/DaCam.png" alt="logo">
+      <p>DaCam</p>
+    </a>
+    <div class="options">
+    <button id="search" type="button" aria-label="Buscar"><img src="svgs/search-alt-1-svgrepo-com.svg" alt=""></button>
+    <ul class="nav">
+      <li>
+        <a href="">Products</a>
+      </li>
+      <li>
+        <a href="">Services</a>
+      </li>
+      <li>
+        <a href="">offers</a>
+      </li>
+      <li>
+        <a href="">contact</a>
+      </li>
+    </ul>
+    <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg" alt=""></button>
+    <button id="cart" type="button" aria-label="Carrito de compras"><img src="svgs/cart-shopping-svgrepo-com.svg" alt=""></button>
+  </div>
+  </header>
+  <div class="mainshop">
+    <div class="imgs">
+      <div class="miniImgs">
+        
+      </div>
+      <img id="buyImage" src="" alt="">
+    </div>
+    <div class="specs">
+      <h2 id="ProductTittle"></h2>
+      <div id="stars"></div>
+      <p id="buyPrice"></p>
+      <p id="buyPriceOffer"></p>
+      <ul id="specsResume"> 
+      </ul>
+
+      </ul>
+    </div>
+    <div class="buyPannel">
+      <div id="DeliveryPrice">3231</div>
+      <div id="buyStock">321321</div>
+      <div id="buyButtons">
+        <button id="buyButtonMain">Buy</button>
+        <button id="buyAddToCart">Add to Cart</button>
+      </div>
+      <div class="others">
+        <div id="devolutions">devolutions</div>
+        <div id="warranty">warranty</div>
+        <button id="help">help</button>
+      </div>
+    </div>
+  </div>
+  <div id="seothers">
+    <div id="fromSameBrand">
+      
+    </div>
+    <div id="payMethods">
+
+    </div>
+    <div id="otherSpecs">
+
+    </div>
+  </div>
+  <div id="questions">
+    <input type="text" id="question">
+    <button onclick="sendQuestion()">Send</button>
+    <a href="#">View Other Questions</a>
+  </div>
+  <div class="ratingsMain">
+    <div id="ratingsStats">
+      <h2 id="ratingNumber"></h2>
+      <div id="starSecond"></div>
+      <h2 id="numberOfRatings"></h2>
+    </div>
+    <div id="ratings">
+      <h2>Ratings</h2>
+      <div id="ratingsContainer"></div>
+    </div>
+  </div>
+  <div class="otherUsersBuy">
+    <h2>other users bought</h2>
+    <div id="othersCarrousel">
+      <button onclick="left()">&#10094;</button>
+      <div id="carrouselContainer"></div>
+      <button onclick="right()">&#10095;</button>
+    </div>
+  </div>
+  <footer>
+    <p>DaCam 2026© All rights Reserved</p>
+    <a>Privacy Politics</a>
+  </footer>
+<script src="scripts/compra.js"></script>
+</body>
+
+</html>
