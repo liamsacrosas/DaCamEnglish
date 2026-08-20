@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers — DaCam</title>
+    <meta name="description" content="Exclusive deals and discounts on professional photography equipment at DaCam. Shop our best offers on cameras, lenses, and accessories.">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <style>
+        /* ── Offers page extras ───────────────────────────── */
+
+        /* Hero banner */
+        .offers-hero {
+            width: min(100% - clamp(2rem, 7vw, 8rem), 90rem);
+            margin: clamp(1.5rem, 4vw, 3rem) auto clamp(1rem, 2.5vw, 2rem);
+            padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.5rem, 4vw, 3rem);
+            background: linear-gradient(135deg, var(--ink) 0%, #2a3d33 60%, #1a2e24 100%);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-raised);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: clamp(1rem, 3vw, 2rem);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .offers-hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(circle at 80% 50%, rgb(199 240 90 / .12) 0%, transparent 60%),
+                radial-gradient(circle at 20% 80%, rgb(255 110 66 / .08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .offers-hero__text {
+            position: relative;
+            z-index: 1;
+        }
+
+        .offers-hero__tag {
+            display: inline-flex;
+            align-items: center;
+            gap: .4rem;
+            padding: .3rem .75rem;
+            background: rgb(199 240 90 / .15);
+            border: 1px solid rgb(199 240 90 / .35);
+            border-radius: 999px;
+            color: var(--brand);
+            font-size: .7rem;
+            font-weight: 800;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+            margin-bottom: .85rem;
+        }
+
+        .offers-hero__tag::before {
+            content: "";
+        }
+
+        .offers-hero__title {
+            margin: 0 0 .5rem;
+            font-size: clamp(1.6rem, 4vw, 2.8rem);
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: -.05em;
+            line-height: 1.1;
+        }
+
+        .offers-hero__title span {
+            color: var(--brand);
+        }
+
+        .offers-hero__sub {
+            margin: 0;
+            color: rgb(255 253 248 / .65);
+            font-size: clamp(.78rem, 1.5vw, .95rem);
+            max-width: 36rem;
+        }
+
+        .offers-hero__badge {
+            position: relative;
+            z-index: 1;
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: clamp(7rem, 14vw, 10rem);
+            height: clamp(7rem, 14vw, 10rem);
+            border-radius: 50%;
+            background: var(--brand);
+            box-shadow: 0 0 0 6px rgb(199 240 90 / .2);
+            color: var(--ink);
+            text-align: center;
+            line-height: 1.1;
+            animation: pulse-badge 2.4s ease-in-out infinite;
+        }
+
+        .offers-hero__badge strong {
+            font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+            font-weight: 800;
+            letter-spacing: -.06em;
+        }
+
+        .offers-hero__badge span {
+            font-size: .65rem;
+            font-weight: 700;
+            letter-spacing: .05em;
+            text-transform: uppercase;
+            opacity: .75;
+        }
+
+        @keyframes pulse-badge {
+            0%, 100% { box-shadow: 0 0 0 6px rgb(199 240 90 / .2); }
+            50%       { box-shadow: 0 0 0 14px rgb(199 240 90 / .08); }
+        }
+
+        /* Offer badge on cards */
+        .producto--oferta {
+            position: relative;
+        }
+
+        .oferta-badge {
+            position: absolute;
+            top: .65rem;
+            left: .65rem;
+            z-index: 2;
+            padding: .2rem .6rem;
+            background: var(--accent);
+            color: #fff;
+            font-size: .68rem;
+            font-weight: 800;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+            border-radius: var(--radius-sm);
+            box-shadow: 0 2px 8px rgb(255 110 66 / .45);
+            pointer-events: none;
+        }
+
+        /* Precio original tachado */
+        .producto__precio--original {
+            text-decoration: line-through;
+            color: var(--ink-soft);
+            font-size: .72rem;
+            font-weight: 600;
+        }
+
+        /* Precio de oferta */
+        .precio-oferta-valor {
+            color: var(--accent);
+        }
+
+        /* Ahorro */
+        .precio-ahorro {
+            display: block;
+            font-size: .68rem;
+            font-weight: 700;
+            color: var(--brand-deep);
+            margin-top: .1rem;
+        }
+
+        /* Stats bar */
+        .offers-stats {
+            width: min(100% - clamp(2rem, 7vw, 8rem), 90rem);
+            margin: 0 auto clamp(1rem, 2vw, 1.5rem);
+            display: flex;
+            align-items: center;
+            gap: clamp(.75rem, 2vw, 1.5rem);
+            flex-wrap: wrap;
+        }
+
+        .offers-stats__item {
+            display: flex;
+            align-items: center;
+            gap: .4rem;
+            font-size: .78rem;
+            font-weight: 700;
+            color: var(--ink-soft);
+        }
+
+        .offers-stats__dot {
+            width: .5rem;
+            height: .5rem;
+            border-radius: 50%;
+            background: var(--brand-deep);
+            flex-shrink: 0;
+        }
+
+        #offer-count {
+            color: var(--ink);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="images/DaCam.png" alt="logo">
+            <p>DaCam</p>
+        </a>
+        <div class="options">
+            <button id="search" type="button" aria-label="Buscar"><img src="svgs/search-alt-1-svgrepo-com.svg"
+                    alt=""></button>
+            <ul class="nav">
+                <li>
+                    <a href="products.html">Products</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="offers.html">Offers</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <button id="login" type="button" aria-label="Iniciar sesion" onclick="window.location.href='logins/email.html'"><img src="svgs/person-svgrepo-com.svg"
+                    alt=""></button>
+            <button id="cart" type="button" aria-label="Carrito de compras" onclick="window.location.href='carrito.html'"><img
+                    src="svgs/cart-shopping-svgrepo-com.svg" alt=""></button>
+        </div>
+    </header>
+
+    <h1 style="width: min(100% - clamp(2rem, 7vw, 8rem), 90rem); margin: clamp(1.5rem, 4vw, 3rem) auto clamp(.5rem, 1vw, 1rem);">Offers</h1>
+
+    <!-- Stats bar -->
+    <div class="offers-stats">
+        <div class="offers-stats__item">
+            <span class="offers-stats__dot"></span>
+            <span id="offer-count">Loading...</span> products on sale
+        </div>
+        <div class="offers-stats__item">
+            <span class="offers-stats__dot" style="background:var(--accent)"></span>
+            Prices updated daily
+        </div>
+    </div>
+
+    <div class="productsContainer">
+        <div id="filters">
+            <label for="ordenar">Order by</label>
+            <select name="ordenar" id="filter" onchange="ordenarProd(this.value)">
+                <option value="mayor-descuento">Biggest Discount</option>
+                <option value="menor-descuento">Smallest Discount</option>
+                <option value="precio-mayor">Price: Highest to Lowest</option>
+                <option value="precio-menor">Price: Lowest to Highest</option>
+            </select>
+        </div>
+        <div id="products"></div>
+        <div id="pagination"></div>
+    </div>
+
+    <footer>
+        <div class="footer-info">
+            <p>DaCam 2026&copy; All rights Reserved</p>
+            <span class="footer-slogan">Capture daily moments with professional quality.</span>
+        </div>
+        <div class="footer-links">
+            <a href="https://www.instagram.com/dacamoficial/" target="_blank" rel="noopener noreferrer" class="instagram-link">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align: middle; margin-right: 4px;">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                Instagram (@dacamoficial)
+            </a>
+            <a href="#">Privacy Politics</a>
+        </div>
+    </footer>
+
+    <script src="scripts/offers.js"></script>
+    <script src="scripts/search.js"></script>
+</body>
+
+</html>
