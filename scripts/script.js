@@ -77,33 +77,45 @@ function cargarAnuncios() {
                 const p = (masBarata.precio_oferta > 0 && masBarata.precio_oferta !== -1) ? masBarata.precio_oferta : masBarata.precio;
                 const desc = document.getElementById("desc-barata");
                 const link = document.getElementById("link-barata");
+                const an1 = document.getElementById("AN1");
                 if (desc) desc.textContent = `${masBarata.titulo} — ${formatearPrecio(p)}`;
                 if (link) link.href = `compra.html?id=${masBarata.id}`;
+                if (an1 && Array.isArray(masBarata.imagenes) && masBarata.imagenes.length > 0)
+                    an1.style.backgroundImage = `url('${masBarata.imagenes[0]}')`;
             }
 
             // Actualizar 2: Mejor valuada
             if (mejorValuada) {
                 const desc = document.getElementById("desc-valuada");
                 const link = document.getElementById("link-valuada");
+                const an2 = document.getElementById("AN2");
                 const rating = mejorValuada.calificacion === -1 ? "5.0 ★" : `★ ${mejorValuada.calificacion}`;
                 if (desc) desc.textContent = `${mejorValuada.titulo} — ${rating}`;
                 if (link) link.href = `compra.html?id=${mejorValuada.id}`;
+                if (an2 && Array.isArray(mejorValuada.imagenes) && mejorValuada.imagenes.length > 0)
+                    an2.style.backgroundImage = `url('${mejorValuada.imagenes[0]}')`;
             }
 
             // Actualizar 3: Más vendida
             if (masVendida) {
                 const desc = document.getElementById("desc-vendida");
                 const link = document.getElementById("link-vendida");
+                const an3 = document.getElementById("AN3");
                 if (desc) desc.textContent = `${masVendida.titulo} — Best Seller Flagship`;
                 if (link) link.href = `compra.html?id=${masVendida.id}`;
+                if (an3 && Array.isArray(masVendida.imagenes) && masVendida.imagenes.length > 0)
+                    an3.style.backgroundImage = `url('${masVendida.imagenes[0]}')`;
             }
 
             // Actualizar 4: Combo recomendación
             if (combo) {
                 const desc = document.getElementById("desc-combo");
                 const link = document.getElementById("link-combo");
+                const an4 = document.getElementById("AN4");
                 if (desc) desc.textContent = `${combo.titulo} — Pro Kit Edition`;
                 if (link) link.href = `compra.html?id=${combo.id}`;
+                if (an4 && Array.isArray(combo.imagenes) && combo.imagenes.length > 0)
+                    an4.style.backgroundImage = `url('${combo.imagenes[0]}')`;
             }
         })
         .catch(err => console.error("Error loading announcements:", err));
