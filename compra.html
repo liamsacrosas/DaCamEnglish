@@ -35,9 +35,9 @@
           <a href="">contact</a>
         </li>
       </ul>
-      <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg"
+      <button id="login" type="button" aria-label="Iniciar sesión" onclick="window.location.href='logins/email.html'"><img src="svgs/person-svgrepo-com.svg"
           alt=""></button>
-      <button id="cart" type="button" aria-label="Carrito de compras"><img src="svgs/cart-shopping-svgrepo-com.svg"
+      <button id="cart" type="button" aria-label="Carrito de compras" onclick="window.location.href='carrito.html'"><img src="svgs/cart-shopping-svgrepo-com.svg"
           alt=""></button>
     </div>
   </header>
@@ -102,9 +102,9 @@
   <div class="otherUsersBuy">
     <h2>other users bought</h2>
     <div id="othersCarrousel">
-      <button onclick="left()">&#10094;</button>
+      <button type="button" aria-label="Anterior" onclick="left()">&#10094;</button>
       <div id="carrouselContainer"></div>
-      <button onclick="right()">&#10095;</button>
+      <button type="button" aria-label="Siguiente" onclick="right()">&#10095;</button>
     </div>
   </div>
   <footer>

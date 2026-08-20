@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DaCam</title>
+    <title>Carrito de compras — DaCam</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,18 +35,48 @@
                     <a href="">contact</a>
                 </li>
             </ul>
-            <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg"
+            <button id="login" type="button" aria-label="Iniciar sesión" onclick="window.location.href='logins/email.html'"><img src="svgs/person-svgrepo-com.svg"
                     alt=""></button>
-            <button id="cart" type="button" aria-label="Carrito de compras"><img
+            <button id="cart" type="button" aria-label="Carrito de compras" onclick="window.location.href='carrito.html'"><img
                     src="svgs/cart-shopping-svgrepo-com.svg" alt=""></button>
         </div>
     </header>
+
+    <main class="carrito-page">
+        <div class="carrito-header-title">
+            <h1>Carrito de compras</h1>
+        </div>
+
+        <div class="carrito-layout">
+            <section class="carrito-grid" id="carritoGrid">
+                <!-- Tarjetas de producto reciclando .producto -->
+            </section>
+
+            <aside class="carrito-resumen">
+                <h2>Resumen de compra</h2>
+
+                <div class="resumen-filas" id="resumenFilas"></div>
+
+                <div class="resumen-total">
+                    <span>Total</span>
+                    <strong id="totalPrecio">$0</strong>
+                </div>
+
+                <div id="tarjetaStatus"></div>
+
+                <button id="btnComprar" type="button" class="btn-comprar-cart" onclick="realizarCompra()">
+                    Comprar ahora
+                </button>
+            </aside>
+        </div>
+    </main>
 
     <footer>
         <p>DaCam 2026© All rights Reserved</p>
         <a>Privacy Politics</a>
     </footer>
-    <script src="scripts/script.js"></script>
+
+    <script src="scripts/carrito.js"></script>
 </body>
 
 </html>

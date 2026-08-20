@@ -21,6 +21,8 @@ function rellenarMiniaturas(imagenes) {
     const contenedor = document.querySelector(".miniImgs");
     const imgPrincipal = document.getElementById("buyImage");
 
+    if (!contenedor || !imgPrincipal) return;
+
     contenedor.innerHTML = imagenes
         .map((img, i) => `
             <button
@@ -73,6 +75,71 @@ function formatearPrecio(num) {
     });
 }
 
+/* ── Tarjetas reutilizables (.producto) ───────────────────── */
+
+function crearTarjeta(producto) {
+    const tieneOferta = producto.precio_oferta !== -1 && producto.precio_oferta > 0;
+
+    const precioHTML = tieneOferta
+        ? `<p class="producto__precio">
+               ${formatearPrecio(producto.precio_oferta)}
+               <span class="producto__precio--oferta">Antes: ${formatearPrecio(producto.precio)}</span>
+           </p>`
+        : `<p class="producto__precio">${formatearPrecio(producto.precio)}</p>`;
+
+    const imgSrc = `https://picsum.photos/seed/dacam${producto.id}/600/800`;
+
+    return `
+        <a class="producto" href="compra.html?id=${producto.id}" id="prod-${producto.id}">
+            <img
+                class="producto__img"
+                src="${imgSrc}"
+                alt="${producto.titulo}"
+                loading="lazy"
+            >
+            <div class="producto__body">
+                <h3 class="producto__titulo">${producto.titulo}</h3>
+                <div class="producto__rating">
+                    <span class="producto__estrellas" aria-hidden="true">${generarEstrellas(producto.calificacion)}</span>
+                    <span>${producto.calificacion} (${producto.cantidad_calificaciones.toLocaleString("es-AR")})</span>
+                </div>
+                ${precioHTML}
+            </div>
+        </a>
+    `;
+}
+
+function rellenarOtrosProductos(productos, idActual) {
+    const contenedor = document.getElementById("carrouselContainer");
+    if (!contenedor) return;
+
+    // Filtrar el producto actual
+    const otros = productos.filter(p => p.id !== idActual);
+
+    contenedor.innerHTML = otros.map(crearTarjeta).join("");
+}
+
+/* ── Navegación del Carrusel ──────────────────────────────── */
+
+function scrollCarrousel(direccion) {
+    const container = document.getElementById("carrouselContainer");
+    if (!container) return;
+
+    const scrollAmount = container.clientWidth * 0.75;
+    container.scrollBy({
+        left: direccion * scrollAmount,
+        behavior: "smooth",
+    });
+}
+
+window.left = function() {
+    scrollCarrousel(-1);
+};
+
+window.right = function() {
+    scrollCarrousel(1);
+};
+
 /* ── Relleno de campos ────────────────────────────────────── */
 
 function rellenarPagina(producto) {
@@ -81,9 +148,11 @@ function rellenarPagina(producto) {
     // Imagen principal + galería de miniaturas
     const imagenes = generarImagenes(producto.id, 5);
     const buyImage = document.getElementById("buyImage");
-    buyImage.src = imagenes[0].full;
-    buyImage.alt = producto.titulo;
-    buyImage.style.transition = "opacity 150ms ease";
+    if (buyImage) {
+        buyImage.src = imagenes[0].full;
+        buyImage.alt = producto.titulo;
+        buyImage.style.transition = "opacity 150ms ease";
+    }
     rellenarMiniaturas(imagenes);
 
     // Título
@@ -141,6 +210,31 @@ function rellenarPagina(producto) {
         `)
         .join("");
 
+    // Botones de compra y carrito
+    const btnAddCart = document.getElementById("buyAddToCart");
+    if (btnAddCart) {
+        btnAddCart.onclick = () => {
+            let carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
+            if (!carrito.includes(producto.id)) {
+                carrito.push(producto.id);
+                localStorage.setItem("carrito", JSON.stringify(carrito));
+            }
+            alert(`"${producto.titulo}" fue agregado al carrito.`);
+        };
+    }
+
+    const btnBuyMain = document.getElementById("buyButtonMain");
+    if (btnBuyMain) {
+        btnBuyMain.onclick = () => {
+            let carrito = JSON.parse(localStorage.getItem("carrito") || "[]");
+            if (!carrito.includes(producto.id)) {
+                carrito.push(producto.id);
+                localStorage.setItem("carrito", JSON.stringify(carrito));
+            }
+            window.location.href = "carrito.html";
+        };
+    }
+
     // Título de la pestaña
     document.title = `${producto.titulo} — DaCam`;
 }
@@ -168,6 +262,7 @@ if (!idProducto) {
             }
 
             rellenarPagina(producto);
+            rellenarOtrosProductos(datos.productos, idProducto);
         })
         .catch(err => {
             console.error("Error cargando el producto:", err);
