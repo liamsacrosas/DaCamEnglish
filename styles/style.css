@@ -130,9 +130,14 @@ header {
   letter-spacing: -.07em;
 }
 
+.logo>p {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
 .logo img {
-  width: 2.35rem;
-  height: 2.35rem;
+  width: 4rem;
+  height: 4rem;
   object-fit: contain;
 }
 
@@ -144,13 +149,13 @@ header {
 
 .logo-text p {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.35em;
   letter-spacing: -0.05em;
   color: var(--ink);
 }
 
 .logo-text .slogan {
-  font-size: 0.62rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--brand-deep);
   letter-spacing: 0.01em;
