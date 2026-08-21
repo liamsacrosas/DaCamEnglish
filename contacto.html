@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="/styles/style copy.css">
+</head>
+<body>
+      <header>
+    <a class="logo" href="index.html">
+      <img src="images/DaCam.png" alt="logo">
+      <p>DaCam</p>
+    </a>
+    <div class="options">
+      <button id="search" type="button" aria-label="Buscar"><img src="svgs/search-alt-1-svgrepo-com.svg"
+          alt=""></button>
+      <ul class="nav">
+        <li>
+          <a href="products.html">Products</a>
+        </li>
+        <li>
+          <a href="">Services</a>
+        </li>
+        <li>
+          <a href="">offers</a>
+        </li>
+        <li>
+          <a href="">contact</a>
+        </li>
+      </ul>
+      <button id="login" type="button" aria-label="Iniciar sesión"><img src="svgs/person-svgrepo-com.svg"
+          alt=""></button>
+      <button id="cart" type="button" aria-label="Carrito de compras"><img src="svgs/cart-shopping-svgrepo-com.svg"
+          alt=""></button>
+    </div>
+  </header>
+
+  <main class="contacto">
+    <section class="contacto__intro">
+      <h1>Contact us</h1>
+      <p>Tell us any questions you may have without obligation, or finalize a purchase or service with our help.</p>
+    </section>
+
+    <form id="contactForm" novalidate>
+      <label>Full Name
+        <input id="nombre" type="text" placeholder="John Doe">
+      </label>
+
+      <label>E-mail
+        <input id="mail" type="email" placeholder="dacamsolutions@example.com">
+      </label>
+
+      <label>Phone Number (Optional)
+        <input id="telefono" type="tel" placeholder="+12 345 678-9100">
+      </label>
+
+      <label>Subject
+        <input id="asunto" type="text" placeholder="Rental, purchase, service, etc.">
+      </label>
+
+      <label>Description
+        <textarea id="descripcion" placeholder="I need to rent a specific set of cameras"></textarea>
+      </label>
+
+      <button type="submit">Send</button>
+      <p id="mensaje"></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>DaCam 2026© All rights Reserved</p>
+    <a>Privacy Politics</a>
+  </footer>
+
+  <script src="/scripts/contacto.js"></script>
+</body>
+</html>

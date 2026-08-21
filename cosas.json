@@ -1,0 +1,2144 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "titulo": "Nikon D850",
+      "precio": 7230000,
+      "calificacion": 4.1,
+      "cantidad_calificaciones": 898,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 45 MP",
+        "Video 4K 30 FPS, FHD 120 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 7 FPS",
+        "Montura Nikon F",
+        "Pantalla de 3.2 táctil e inclinable"
+      ],
+      "stock": 29,
+      "garantia": "6 años",
+      "caracteristicas": {
+        "sensor": "CMOS FF 45.7 MP",
+        "resolucion": "45 MP",
+        "video": "4K 30/25/24; FHD 60/50/30/25/24",
+        "rango_iso": "64-25600 exp. 102400",
+        "rafaga": "7 FPS (9 FPS con grip)",
+        "montura": "Nikon F",
+        "pantalla": "3 pulgadas táctil, inclinable",
+        "relacion-aspecto": "3:2",
+        "archivos": "NEF RAW, JPEG, TIFF; MOV H.264",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth SnapBridge",
+          "USB-C",
+          "HDMI"
+        ],
+        "estabilizacion": "No IBIS",
+        "peso": "1005 g",
+        "bateria": 692
+      },
+      "comentarios": [
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-07-27",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz"
+        },
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2026-03-04",
+          "calificacion": 5,
+          "comentario": "Tiene una resolución brutal, me caí de culo"
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2026-07-30",
+          "calificacion": 5,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2025-02-25",
+          "calificacion": 5,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        },
+        {
+          "lugar": "Rosario, Argentina",
+          "fecha": "2026-03-24",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "DaCam Nova Pro",
+      "precio": 2800000,
+      "calificacion": 4.8,
+      "cantidad_calificaciones": 663,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 24 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-25600",
+        "Ráfaga de 7 FPS",
+        "Montura E-Mount"
+      ],
+      "stock": 17,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "24 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-25600",
+        "rafaga": "7 FPS",
+        "montura": "E-Mount",
+        "pantalla": "3 pulgadas abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "6 ejes",
+        "peso": "568 g",
+        "bateria": 699
+      },
+      "comentarios": [
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-08-19",
+          "calificacion": 4,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-12-03",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-02-27",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2026-06-12",
+          "calificacion": 4,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "DaCam Vortex 4K",
+      "precio": 2150000,
+      "calificacion": 4.4,
+      "cantidad_calificaciones": 84,
+      "precio_oferta": 1944000,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 40 MP",
+        "Video 4K 60 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 12 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 23,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "40 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "12 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "6 ejes",
+        "peso": "553 g",
+        "bateria": 417
+      },
+      "comentarios": [
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2026-07-01",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2025-01-14",
+          "calificacion": 5,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-02-08",
+          "calificacion": 5,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-07-15",
+          "calificacion": 4,
+          "comentario": "El enfoque automático es rápido y preciso."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "DaCam Lumina S",
+      "precio": 2800000,
+      "calificacion": 4.8,
+      "cantidad_calificaciones": 1256,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 24 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-12800",
+        "Ráfaga de 10 FPS",
+        "Montura E-Mount"
+      ],
+      "stock": 27,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "24 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-12800",
+        "rafaga": "10 FPS",
+        "montura": "E-Mount",
+        "pantalla": "3 pulgadas abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "6 ejes",
+        "peso": "592 g",
+        "bateria": 393
+      },
+      "comentarios": [
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-04-08",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2026-03-21",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2026-03-26",
+          "calificacion": 5,
+          "comentario": "Excelente construcción, se siente resistente."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "DaCam Zenith",
+      "precio": 2200000,
+      "calificacion": 4.2,
+      "cantidad_calificaciones": 1005,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 30 MP",
+        "Video 4K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 7 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 15,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "30 MP",
+        "video": "4K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "7 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Digital",
+        "peso": "528 g",
+        "bateria": 451
+      },
+      "comentarios": [
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-11-21",
+          "calificacion": 5,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-11-01",
+          "calificacion": 5,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2025-07-29",
+          "calificacion": 4,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 6,
+      "titulo": "DaCam Orbit X2",
+      "precio": 1400000,
+      "calificacion": 4.8,
+      "cantidad_calificaciones": 463,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 26 MP",
+        "Video 8K 30 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 8 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 19,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "26 MP",
+        "video": "8K 30 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "8 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Digital",
+        "peso": "739 g",
+        "bateria": 597
+      },
+      "comentarios": [
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2025-07-20",
+          "calificacion": 5,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-05-29",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2025-08-06",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "DaCam Vertex Pro",
+      "precio": 1750000,
+      "calificacion": 3.9,
+      "cantidad_calificaciones": 1088,
+      "precio_oferta": 1585000,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 24 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-12800",
+        "Ráfaga de 10 FPS",
+        "Montura X-Mount"
+      ],
+      "stock": 5,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "24 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-12800",
+        "rafaga": "10 FPS",
+        "montura": "X-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Óptica",
+        "peso": "674 g",
+        "bateria": 558
+      },
+      "comentarios": [
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2026-06-24",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-04-17",
+          "calificacion": 4,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2026-03-13",
+          "calificacion": 5,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 8,
+      "titulo": "DaCam Aurora 26",
+      "precio": 1850000,
+      "calificacion": 4.7,
+      "cantidad_calificaciones": 872,
+      "precio_oferta": 1678000,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 33 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-25600",
+        "Ráfaga de 7 FPS",
+        "Montura X-Mount"
+      ],
+      "stock": 29,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "33 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-25600",
+        "rafaga": "7 FPS",
+        "montura": "X-Mount",
+        "pantalla": "3 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "460 g",
+        "bateria": 462
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-03-12",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2026-04-09",
+          "calificacion": 4,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-03-20",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2026-08-04",
+          "calificacion": 4,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        },
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-04-24",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "DaCam Focus R",
+      "precio": 1400000,
+      "calificacion": 4.3,
+      "cantidad_calificaciones": 941,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 26 MP",
+        "Video 6K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 15 FPS",
+        "Montura L-Mount"
+      ],
+      "stock": 10,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "26 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "15 FPS",
+        "montura": "L-Mount",
+        "pantalla": "3 pulgadas abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "6 ejes",
+        "peso": "581 g",
+        "bateria": 426
+      },
+      "comentarios": [
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-12-25",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2026-04-29",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-06-22",
+          "calificacion": 5,
+          "comentario": "Muy buena cámara para fotografía y video."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 10,
+      "titulo": "DaCam Prisma",
+      "precio": 2300000,
+      "calificacion": 4.6,
+      "cantidad_calificaciones": 899,
+      "precio_oferta": 1839000,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 33 MP",
+        "Video 8K 30 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 10 FPS",
+        "Montura DaCam-M"
+      ],
+      "stock": 6,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "33 MP",
+        "video": "8K 30 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "10 FPS",
+        "montura": "DaCam-M",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "6 ejes",
+        "peso": "751 g",
+        "bateria": 663
+      },
+      "comentarios": [
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2026-07-18",
+          "calificacion": 4,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-09-22",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-07-19",
+          "calificacion": 5,
+          "comentario": "Excelente construcción, se siente resistente."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 11,
+      "titulo": "DaCam Eclipse",
+      "precio": 2600000,
+      "calificacion": 3.9,
+      "cantidad_calificaciones": 1037,
+      "precio_oferta": 2290000,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 20 MP",
+        "Video 6K 30 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 7 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 16,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "20 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "7 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "6 ejes",
+        "peso": "489 g",
+        "bateria": 753
+      },
+      "comentarios": [
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-07-08",
+          "calificacion": 4,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Rosario, Argentina",
+          "fecha": "2025-12-31",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2025-04-28",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 12,
+      "titulo": "DaCam Terra X",
+      "precio": 2050000,
+      "calificacion": 4.8,
+      "cantidad_calificaciones": 650,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 33 MP",
+        "Video 8K 30 FPS",
+        "ISO 100-25600",
+        "Ráfaga de 7 FPS",
+        "Montura RF"
+      ],
+      "stock": 4,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "33 MP",
+        "video": "8K 30 FPS",
+        "rango_iso": "100-25600",
+        "rafaga": "7 FPS",
+        "montura": "RF",
+        "pantalla": "3 pulgadas abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Óptica",
+        "peso": "441 g",
+        "bateria": 619
+      },
+      "comentarios": [
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-10-19",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2025-09-10",
+          "calificacion": 4,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-05-23",
+          "calificacion": 5,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-08-03",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2026-05-03",
+          "calificacion": 5,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 13,
+      "titulo": "DaCam Vector Pro",
+      "precio": 2050000,
+      "calificacion": 4.4,
+      "cantidad_calificaciones": 950,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 33 MP",
+        "Video 4K 30 FPS",
+        "ISO 100-25600",
+        "Ráfaga de 7 FPS",
+        "Montura X-Mount"
+      ],
+      "stock": 12,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "33 MP",
+        "video": "4K 30 FPS",
+        "rango_iso": "100-25600",
+        "rafaga": "7 FPS",
+        "montura": "X-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Digital",
+        "peso": "573 g",
+        "bateria": 501
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-05-03",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-08-13",
+          "calificacion": 4,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Rosario, Argentina",
+          "fecha": "2025-07-26",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-01-13",
+          "calificacion": 4,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 14,
+      "titulo": "DaCam Horizon",
+      "precio": 1150000,
+      "calificacion": 4.1,
+      "cantidad_calificaciones": 322,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 33 MP",
+        "Video 6K 30 FPS",
+        "ISO 100-12800",
+        "Ráfaga de 8 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 7,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "33 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "100-12800",
+        "rafaga": "8 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "757 g",
+        "bateria": 721
+      },
+      "comentarios": [
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-11-27",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-05-07",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2025-01-16",
+          "calificacion": 4,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 15,
+      "titulo": "DaCam Pulse",
+      "precio": 1850000,
+      "calificacion": 4.1,
+      "cantidad_calificaciones": 985,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 40 MP",
+        "Video 6K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 8 FPS",
+        "Montura L-Mount"
+      ],
+      "stock": 10,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "40 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "8 FPS",
+        "montura": "L-Mount",
+        "pantalla": "3 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "667 g",
+        "bateria": 688
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-06-05",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2025-10-20",
+          "calificacion": 5,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-07-23",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-02-16",
+          "calificacion": 4,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 16,
+      "titulo": "DaCam Spectra",
+      "precio": 1500000,
+      "calificacion": 4.2,
+      "cantidad_calificaciones": 1052,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 26 MP",
+        "Video 6K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 12 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 19,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "26 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "12 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Digital",
+        "peso": "679 g",
+        "bateria": 605
+      },
+      "comentarios": [
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2026-08-09",
+          "calificacion": 5,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-04-05",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-04-16",
+          "calificacion": 4,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-03-25",
+          "calificacion": 4,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-06-01",
+          "calificacion": 5,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 17,
+      "titulo": "DaCam Atlas",
+      "precio": 2850000,
+      "calificacion": 4.7,
+      "cantidad_calificaciones": 618,
+      "precio_oferta": 2299000,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 45 MP",
+        "Video 8K 30 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 8 FPS",
+        "Montura DaCam-M"
+      ],
+      "stock": 16,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "45 MP",
+        "video": "8K 30 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "8 FPS",
+        "montura": "DaCam-M",
+        "pantalla": "3 pulgadas abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "662 g",
+        "bateria": 647
+      },
+      "comentarios": [
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-02-14",
+          "calificacion": 4,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-02-16",
+          "calificacion": 5,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        },
+        {
+          "lugar": "Rosario, Argentina",
+          "fecha": "2025-02-24",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 18,
+      "titulo": "DaCam Nebula",
+      "precio": 1450000,
+      "calificacion": 4.3,
+      "cantidad_calificaciones": 723,
+      "precio_oferta": 1233000,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 45 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-12800",
+        "Ráfaga de 10 FPS",
+        "Montura E-Mount"
+      ],
+      "stock": 20,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "45 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-12800",
+        "rafaga": "10 FPS",
+        "montura": "E-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "424 g",
+        "bateria": 503
+      },
+      "comentarios": [
+        {
+          "lugar": "Rosario, Argentina",
+          "fecha": "2026-01-16",
+          "calificacion": 5,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2025-01-29",
+          "calificacion": 4,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        },
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-08-02",
+          "calificacion": 5,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-08-22",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 19,
+      "titulo": "DaCam Sigma X",
+      "precio": 1700000,
+      "calificacion": 5.0,
+      "cantidad_calificaciones": 961,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 30 MP",
+        "Video 4K 30 FPS",
+        "ISO 100-25600",
+        "Ráfaga de 15 FPS",
+        "Montura E-Mount"
+      ],
+      "stock": 26,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "30 MP",
+        "video": "4K 30 FPS",
+        "rango_iso": "100-25600",
+        "rafaga": "15 FPS",
+        "montura": "E-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Óptica",
+        "peso": "707 g",
+        "bateria": 675
+      },
+      "comentarios": [
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2025-04-17",
+          "calificacion": 4,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-11-24",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2026-03-14",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-10-20",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2026-01-13",
+          "calificacion": 5,
+          "comentario": "Muy buena cámara para fotografía y video."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 20,
+      "titulo": "DaCam Creator Pro",
+      "precio": 500000,
+      "calificacion": 4.9,
+      "cantidad_calificaciones": 776,
+      "precio_oferta": 452000,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 30 MP",
+        "Video 8K 30 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 8 FPS",
+        "Montura X-Mount"
+      ],
+      "stock": 5,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "30 MP",
+        "video": "8K 30 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "8 FPS",
+        "montura": "X-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "579 g",
+        "bateria": 670
+      },
+      "comentarios": [
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2026-05-05",
+          "calificacion": 4,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-03-30",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-03-16",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 21,
+      "titulo": "DaCam Traveler",
+      "precio": 700000,
+      "calificacion": 4.2,
+      "cantidad_calificaciones": 1191,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 26 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-25600",
+        "Ráfaga de 15 FPS",
+        "Montura RF"
+      ],
+      "stock": 17,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "26 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-25600",
+        "rafaga": "15 FPS",
+        "montura": "RF",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "482 g",
+        "bateria": 753
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-06-23",
+          "calificacion": 5,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2026-07-21",
+          "calificacion": 5,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2026-04-12",
+          "calificacion": 4,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 22,
+      "titulo": "DaCam Studio X",
+      "precio": 1500000,
+      "calificacion": 5.0,
+      "cantidad_calificaciones": 700,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 30 MP",
+        "Video 4K 60 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 7 FPS",
+        "Montura E-Mount"
+      ],
+      "stock": 12,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "30 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "7 FPS",
+        "montura": "E-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Digital",
+        "peso": "750 g",
+        "bateria": 550
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-04-28",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-08-23",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2026-04-04",
+          "calificacion": 4,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2026-05-04",
+          "calificacion": 4,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-06-17",
+          "calificacion": 5,
+          "comentario": "Excelente construcción, se siente resistente."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 23,
+      "titulo": "DaCam Wild Pro",
+      "precio": 2750000,
+      "calificacion": 4.6,
+      "cantidad_calificaciones": 640,
+      "precio_oferta": 2460000,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 24 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-12800",
+        "Ráfaga de 10 FPS",
+        "Montura Micro 4/3"
+      ],
+      "stock": 29,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "24 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-12800",
+        "rafaga": "10 FPS",
+        "montura": "Micro 4/3",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "448 g",
+        "bateria": 663
+      },
+      "comentarios": [
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2026-03-31",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2026-03-03",
+          "calificacion": 5,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-01-13",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2025-08-29",
+          "calificacion": 5,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 24,
+      "titulo": "DaCam Urban",
+      "precio": 550000,
+      "calificacion": 4.6,
+      "cantidad_calificaciones": 1248,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 20 MP",
+        "Video 4K 60 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 15 FPS",
+        "Montura DaCam-M"
+      ],
+      "stock": 9,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "20 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "15 FPS",
+        "montura": "DaCam-M",
+        "pantalla": "3 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "427 g",
+        "bateria": 604
+      },
+      "comentarios": [
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-02-23",
+          "calificacion": 4,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-05-30",
+          "calificacion": 5,
+          "comentario": "La compré para viajes y superó mis expectativas."
+        },
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-10-15",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-02-19",
+          "calificacion": 4,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-05-20",
+          "calificacion": 5,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 25,
+      "titulo": "DaCam Classic",
+      "precio": 2000000,
+      "calificacion": 4.6,
+      "cantidad_calificaciones": 736,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 30 MP",
+        "Video 6K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 8 FPS",
+        "Montura DaCam-M"
+      ],
+      "stock": 8,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "30 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "8 FPS",
+        "montura": "DaCam-M",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "463 g",
+        "bateria": 697
+      },
+      "comentarios": [
+        {
+          "lugar": "Mendoza, Argentina",
+          "fecha": "2025-11-24",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-02-02",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2026-08-12",
+          "calificacion": 5,
+          "comentario": "Excelente calidad de imagen y muy cómoda para usar."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-04-04",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 26,
+      "titulo": "DaCam Vision 8K",
+      "precio": 1500000,
+      "calificacion": 4.6,
+      "cantidad_calificaciones": 507,
+      "precio_oferta": 1182000,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 26 MP",
+        "Video 4K 30 FPS",
+        "ISO 100-12800",
+        "Ráfaga de 15 FPS",
+        "Montura X-Mount"
+      ],
+      "stock": 20,
+      "garantia": "1 año",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "26 MP",
+        "video": "4K 30 FPS",
+        "rango_iso": "100-12800",
+        "rafaga": "15 FPS",
+        "montura": "X-Mount",
+        "pantalla": "3 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "606 g",
+        "bateria": 596
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-03-26",
+          "calificacion": 4,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-04-05",
+          "calificacion": 4,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        },
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2026-03-08",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-07-11",
+          "calificacion": 4,
+          "comentario": "El enfoque automático es rápido y preciso."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 27,
+      "titulo": "DaCam Falcon",
+      "precio": 600000,
+      "calificacion": 4.6,
+      "cantidad_calificaciones": 22,
+      "precio_oferta": 524000,
+      "resumen_caracteristicas": [
+        "Sensor Full Frame de 30 MP",
+        "Video 6K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 12 FPS",
+        "Montura RF"
+      ],
+      "stock": 12,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "Full Frame",
+        "resolucion": "30 MP",
+        "video": "6K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "12 FPS",
+        "montura": "RF",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Óptica",
+        "peso": "433 g",
+        "bateria": 472
+      },
+      "comentarios": [
+        {
+          "lugar": "Buenos Aires, Argentina",
+          "fecha": "2025-01-26",
+          "calificacion": 4,
+          "comentario": "Excelente construcción, se siente resistente."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-08-25",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2026-01-22",
+          "calificacion": 4,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Mar del Plata, Argentina",
+          "fecha": "2025-10-08",
+          "calificacion": 4,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-11-26",
+          "calificacion": 5,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 28,
+      "titulo": "DaCam Moonlight",
+      "precio": 1100000,
+      "calificacion": 4.4,
+      "cantidad_calificaciones": 956,
+      "precio_oferta": 861000,
+      "resumen_caracteristicas": [
+        "Sensor Micro Four Thirds de 20 MP",
+        "Video 4K 30 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 12 FPS",
+        "Montura X-Mount"
+      ],
+      "stock": 24,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "Micro Four Thirds",
+        "resolucion": "20 MP",
+        "video": "4K 30 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "12 FPS",
+        "montura": "X-Mount",
+        "pantalla": "3.5 pulgadas táctil abatible",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Digital",
+        "peso": "742 g",
+        "bateria": 715
+      },
+      "comentarios": [
+        {
+          "lugar": "Salta, Argentina",
+          "fecha": "2025-05-31",
+          "calificacion": 4,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2025-12-24",
+          "calificacion": 4,
+          "comentario": "Muy buena cámara para fotografía y video."
+        },
+        {
+          "lugar": "Madrid, España",
+          "fecha": "2025-12-15",
+          "calificacion": 4,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 29,
+      "titulo": "DaCam Explorer",
+      "precio": 1450000,
+      "calificacion": 4.7,
+      "cantidad_calificaciones": 698,
+      "precio_oferta": -1,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 24 MP",
+        "Video 4K 30 FPS",
+        "ISO 64-25600",
+        "Ráfaga de 10 FPS",
+        "Montura L-Mount"
+      ],
+      "stock": 20,
+      "garantia": "3 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "24 MP",
+        "video": "4K 30 FPS",
+        "rango_iso": "64-25600",
+        "rafaga": "10 FPS",
+        "montura": "L-Mount",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "Óptica",
+        "peso": "607 g",
+        "bateria": 499
+      },
+      "comentarios": [
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2025-01-26",
+          "calificacion": 5,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2026-04-22",
+          "calificacion": 5,
+          "comentario": "La batería dura bastante y el manejo es intuitivo."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2026-02-27",
+          "calificacion": 5,
+          "comentario": "La recomiendo, especialmente por la relación precio-calidad."
+        },
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-04-05",
+          "calificacion": 4,
+          "comentario": "Ideal para aprender fotografía sin quedarse corto rápidamente."
+        },
+        {
+          "lugar": "Santiago, Chile",
+          "fecha": "2026-02-27",
+          "calificacion": 4,
+          "comentario": "Me sorprendió el rendimiento con poca luz."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    },
+    {
+      "id": 30,
+      "titulo": "DaCam Infinity",
+      "precio": 1550000,
+      "calificacion": 4.0,
+      "cantidad_calificaciones": 528,
+      "precio_oferta": 1402000,
+      "resumen_caracteristicas": [
+        "Sensor APS-C de 24 MP",
+        "Video 4K 60 FPS",
+        "ISO 100-51200",
+        "Ráfaga de 15 FPS",
+        "Montura L-Mount"
+      ],
+      "stock": 7,
+      "garantia": "2 años",
+      "caracteristicas": {
+        "sensor": "APS-C",
+        "resolucion": "24 MP",
+        "video": "4K 60 FPS",
+        "rango_iso": "100-51200",
+        "rafaga": "15 FPS",
+        "montura": "L-Mount",
+        "pantalla": "3.2 pulgadas táctil",
+        "conectividad": [
+          "Wi-Fi",
+          "Bluetooth",
+          "USB-C"
+        ],
+        "estabilizacion": "5 ejes",
+        "peso": "770 g",
+        "bateria": 632
+      },
+      "comentarios": [
+        {
+          "lugar": "Ushuaia, Argentina",
+          "fecha": "2025-06-29",
+          "calificacion": 5,
+          "comentario": "El enfoque automático es rápido y preciso."
+        },
+        {
+          "lugar": "Bariloche, Argentina",
+          "fecha": "2026-01-11",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        },
+        {
+          "lugar": "Córdoba, Argentina",
+          "fecha": "2025-05-02",
+          "calificacion": 4,
+          "comentario": "Los colores salen muy naturales y con mucho detalle."
+        }
+      ],
+      "imagenes": [
+        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1495707902641-75cac588d2e9?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1606986628253-2c2f6a4f5f1f?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1600&q=85",
+        "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=85"
+      ]
+    }
+  ]
+}
