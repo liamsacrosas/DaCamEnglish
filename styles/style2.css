@@ -1,0 +1,36 @@
+
+/* ============================================================
+   SERVICIoS xdxdddxd
+   ============================================================ */
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicios-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28vw;
+}
+
+#servicios-titulo h1 {
+    font-size: clamp(1.5rem, 3vw, 2.4rem);
+    margin-top: 2vw;
+}
+
+#servicios-titulo h2 {
+    font-size: clamp(1.5rem, 1.2vw, 2.4rem);
+    margin-bottom: 2vw;
+}
+
+.servicio{
+    background-color: #8eae29;
+    padding: 2vw;
+    margin: 4vw;
+    border-radius: 25px;
+}
