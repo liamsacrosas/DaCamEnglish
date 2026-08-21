@@ -11,7 +11,7 @@
 
   --brand: #c7f05a;
   --brand-deep: #8eae29;
-  --accent: #ff6e42;
+  --accent: #8eae29;
   --danger: #b53535;
 
   --radius-sm: .45rem;
@@ -32,7 +32,212 @@
   --transition-normal: 260ms cubic-bezier(.2, .8, .2, 1);
 }
 
+body {
+  background: #fff;
+}
 
+.pro {
+  background-color: #18231f;
+}
+
+.site-header {
+  position: relative;
+  min-height: 5.5rem;
+  padding: .8rem clamp(1rem, 5vw, 5rem);
+  background: #fff;
+}
+
+.site-header .logo {
+  color: var(--ink);
+  font-size: 1.35rem;
+}
+
+.site-header nav {
+  display: flex;
+  gap: clamp(1rem, 2.5vw, 2.2rem);
+}
+
+.site-header nav a {
+  color: var(--ink-soft);
+  font-size: .78rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-button {
+  min-height: 2.6rem;
+  padding: .55rem 1rem;
+  color: var(--ink);
+  background: var(--brand);
+  border: 0;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+}
+
+.hero {
+  position: relative;
+  width: min(100% - 2rem, 90rem);
+  min-height: min(70vh, 42rem);
+  margin: 1rem auto 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+}
+
+.hero-pro {
+  position: relative;
+  width: min(100% - 2rem, 90rem);
+  min-height: min(70vh, 42rem);
+  margin: 1rem auto 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: var(--radius-lg);
+  background: var(--ink);
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--paper) 0%, rgb(245 242 234 / .96) 32%, rgb(245 242 234 / .35) 63%, rgb(245 242 234 / .05) 100%),
+    url("https://wallpaperaccess.com/full/1358215.jpg") center / cover no-repeat;
+  filter: saturate(.9);
+}
+
+.hero__image-pro {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, var(--paper) 0%, rgb(245 242 234 / .96) 32%, rgb(245 242 234 / .35) 63%, rgb(245 242 234 / .05) 100%),
+    url("https://static.vecteezy.com/system/resources/previews/002/739/431/large_2x/video-camera-with-blur-background-photo.jpg") center / cover no-repeat;
+  filter: saturate(.9);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 38rem);
+  padding: clamp(2rem, 6vw, 5.5rem);
+}
+
+.hero h1 {
+  max-width: 35rem;
+  margin: 0 0 1.25rem;
+  font-size: clamp(3rem, 7vw, 6.4rem);
+  line-height: .92;
+  letter-spacing: -.09em;
+}
+
+.hero h1 em {
+  color: var(--brand-deep);
+  font-style: normal;
+}
+
+.hero__content > p:not(.eyebrow) {
+  max-width: 30rem;
+  margin-bottom: 1.8rem;
+  color: var(--ink-soft);
+  font-size: .9rem;
+}
+
+.hero__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+.pro__buttons {
+  margin-top: 2vh;
+}
+.button {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: .7rem 1.2rem;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgb(24 35 31 / 12%);
+}
+
+.button--primary {
+  color: var(--ink);
+  background: var(--brand);
+}
+
+.button--secondary {
+  color: var(--surface);
+  background: var(--accent);
+}
+
+.intro {
+  width: min(100% - 2rem, 60rem);
+  margin: clamp(4rem, 9vw, 8rem) auto;
+  text-align: center;
+}
+
+.intro h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding: 1.5rem clamp(1rem, 5vw, 5rem);
+  color: #d8ded9;
+  background: var(--ink);
+  font-size: .75rem;
+}
+
+.site-footer a {
+  color: inherit;
+}
+
+@media (max-width: 700px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .site-header nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero {
+    min-height: 36rem;
+  }
+
+  .hero__image {
+    background:
+      linear-gradient(90deg, rgb(245 242 234 / .98) 0%, rgb(245 242 234 / .88) 55%, rgb(245 242 234 / .35) 100%),
+      url("https://picsum.photos/seed/homehero/1200/1000") center / cover no-repeat;
+  }
+
+  .hero__content {
+    padding: 2rem;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 /* ============================================================
    RESET / BASE
    ============================================================ */
@@ -1372,7 +1577,7 @@ footer a:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
+/* contacto */
 /* Calificacion */
 .producto__rating {
   display: flex;
@@ -1865,4 +2070,8 @@ footer a:hover {
   padding: 2vw;
   margin: 4vw;
   border-radius: 25px;
+}
+
+.contacto {
+  background-color: #18231f;
 }

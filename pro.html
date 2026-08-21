@@ -12,7 +12,7 @@
     rel="stylesheet">
 </head>
 
-<body>
+<body class="pro">
       <header>
         <a class="logo" href="index.html">
             <img src="images/DaCam.png" alt="logo">
@@ -51,95 +51,27 @@
                     src="svgs/cart-shopping-svgrepo-com.svg" alt=""></button>
         </div>
     </header>
-  <div class="mainshop">
-    <div class="imgs">
-      <div class="miniImgs">
-
-      </div>
-      <img id="buyImage" src="" alt="">
-    </div>
-    <div class="specs">
-      <h2 id="ProductTittle"></h2>
-      <div id="stars"></div>
-      <p id="buyPrice"></p>
-      <p id="buyPriceOffer"></p>
-      <ul id="specsResume">
-      </ul>
-
-      </ul>
-    </div>
-    <div class="buyPannel">
-      <div id="DeliveryPrice">Free shipping worldwide</div>
-      <div id="buyStock">Stock available</div>
-
-      <!-- Transaction Mode (Buy vs Rent) -->
-      <div class="purchase-mode-box">
-        <label class="mode-label">Transaction Option</label>
-        <div class="mode-options">
-          <label class="mode-radio-label">
-            <input type="radio" name="purchaseMode" value="buy" checked>
-            <span>Buy Camera</span>
-          </label>
-          <label class="mode-radio-label">
-            <input type="radio" name="purchaseMode" value="rent">
-            <span>Rent by Day (2.5%/day)</span>
-          </label>
-        </div>
-      </div>
-
-      <!-- Rental Controls (1 to 30 days) -->
-      <div id="rentalControls" class="rental-controls-box hidden">
-        <label for="rentalDaysInput" class="mode-label">Rental Duration (1 - 30 Days):</label>
-        <div class="rental-days-row">
-          <input type="number" id="rentalDaysInput" min="1" max="30" value="1">
-          <span class="days-unit">Days</span>
-        </div>
-        <div class="rental-calc-info">
-          <div class="calc-line"><span>Daily Rate (2.5%):</span> <strong id="dailyRatePrice">$0</strong></div>
-          <div class="calc-line calc-total"><span>Total Rental:</span> <strong id="totalRentalPrice">$0</strong></div>
-        </div>
-      </div>
-
-      <div id="buyButtons">
-        <button id="buyButtonMain">Buy Now</button>
-        <button id="buyAddToCart">Add to Cart</button>
-      </div>
-      <div class="others">
-        <div id="devolutions">devolutions</div>
-        <div id="warranty">warranty</div>
-        <button id="help">help</button>
+    <main>
+  <section class="hero">
+    <div class="hero__image-pro"></div>
+    <div class="hero__content">
+      <h1>Write your script. <em>We'll make it happen.</em></h1>
+      <p>DaCam PRO is the solution to any writer or director. We'll make your craziest ideas come true, from adverstiments, to award-winning films.</p>
+      <div class="hero__buttons">
+        <a class="button button--secondary" href="contacto.html">Contact us</a>
       </div>
     </div>
-  </div>
-  <div id="seothers">
-    <div id="otherSpecs">
+  </section>
 
-    </div>
-  </div>
-  <div id="questions">
-    <input type="text" id="question" placeholder="Preguntar..." aria-label="Preguntar sobre el producto">
-    <button type="button" aria-label="Enviar pregunta" onclick="sendQuestion()">Send</button>
+  <section class="intro">
+    <p class="eyebrow">About DaCam PRO:</p>
+    <h2>This is our dedicated service about professional film production. We can provide any equipment avaliable on the store, along with professional operators and advice to make any audiovisual production happen.</h2>
+          <div class="pro__buttons">
+        <a href="#">Learn more</a>
+      </div>
+  </section>
+</main>
 
-  </div>
-  <div class="ratingsMain">
-    <div id="ratingsStats">
-      <h2 id="ratingNumber"></h2>
-      <div id="starSecond"></div>
-      <h2 id="numberOfRatings"></h2>
-    </div>
-    <div id="ratings">
-      <h2>Ratings</h2>
-      <div id="ratingsContainer"></div>
-    </div>
-  </div>
-  <div class="otherUsersBuy">
-    <h2>other users bought</h2>
-    <div id="othersCarrousel">
-      <button type="button" aria-label="Anterior" onclick="left()">&#10094;</button>
-      <div id="carrouselContainer"></div>
-      <button type="button" aria-label="Siguiente" onclick="right()">&#10095;</button>
-    </div>
-  </div>
   <footer>
     <div class="footer-info">
       <p>DaCam 2026© All rights Reserved</p>
@@ -158,7 +90,7 @@
       <a href="#">Privacy Politics</a>
     </div>
   </footer>
-  <script src="scripts/compra.js"></script>
+  <script src="scripts/script.js"></script>
   <script src="scripts/search.js"></script>
 </body>
 
